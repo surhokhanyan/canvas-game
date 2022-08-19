@@ -1,0 +1,50 @@
+//For size
+@mixin size($wdth, $hdth){
+    width: $wdth;
+    height: $hdth;
+}
+//Flexboxes
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flexBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flexEvenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@mixin flexAround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin flDownCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flDownBetween{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flDownEvenly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@mixin flDownAround{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

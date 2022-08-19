@@ -1,0 +1,15 @@
+@import "mixins";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    @include size(100%, 900px);
+    background-color: rgb(125, 144, 230);
+    @include flexCenter();
+    #canvas{
+        @include size(1200px, 600px);
+        border: 2px solid rgb(165, 42, 134);
+    }
+}
